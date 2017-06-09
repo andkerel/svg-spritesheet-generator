@@ -8,7 +8,7 @@ module.exports = {
   // UIPort: 3001,
 
   nodeDir: './node_modules/',
-  cleanFiles: projectDir + '/svg-min/*.svg',
+  cleanFiles: projectDir + '/svg/*.svg',
 
   svg: {
     spriteSrc: projectDir + '/svg-src/**/*.svg',
