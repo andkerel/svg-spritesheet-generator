@@ -25,6 +25,8 @@ root
 
 ```
 
+### Sheet creation
+
 Then, to create the spritesheet titled `socials-spritesheet.svg`, run this command:
 
 ```
@@ -32,6 +34,14 @@ gulp svg-sprites
 ```
 
 This will create an `svg-min` folder as an intermediary, and an `svg` folder for the completed spritesheets.
+
+### Clean your directory
+
+To clean minified and compiled files, use:
+
+```
+gulp clean
+```
 
 ## Implementation
 
